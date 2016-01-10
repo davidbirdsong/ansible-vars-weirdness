@@ -1,0 +1,4 @@
+---
+- name: check_job-vars
+  debug: msg="tld_val={{ tld_val }}"
+

@@ -1,0 +1,9 @@
+---
+# apt must be first to trigger apt-get update
+# dns-resolv is needed ahead of most roles to be able to resolve hostnames
+# summary must be last
+- hosts: 127.0.0.1
+  sudo: yes
+
+  roles:
+    - { role: toprole}
